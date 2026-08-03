@@ -1,0 +1,7 @@
+# Временные файлы и кэш
+.DS_Store
+.idea/
+.vscode/
+*.log
+node_modules/
+dist/
