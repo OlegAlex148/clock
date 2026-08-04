@@ -35,6 +35,42 @@ Alternatively, open `index.html` directly in a browser (double-click).
 - `padStart(2, '0')` ensures zero-padding for single-digit hours, minutes, seconds
 - Font is monospaced (`font-mono`) to prevent width shifts when numbers change
 
+## Git Workflow
+
+This project follows **GitHub Flow** for branch management and contributions.
+
+### Branch Naming Convention
+
+- `feat/<feature-name>` — for new features (e.g., `feat/mobile-layout-fix`)
+- `fix/<issue-name>` — for bug fixes (e.g., `fix/timezone-handling`)
+- `docs/<doc-name>` — for documentation updates (e.g., `docs/setup-guide`)
+- `refactor/<area>` — for code refactoring (e.g., `refactor/clock-logic`)
+
+### Workflow Steps
+
+1. **Create feature branch** from `main`:
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout -b feat/your-feature-name
+   ```
+
+2. **Commit changes** following Conventional Commits (see below)
+
+3. **Push to remote**:
+   ```bash
+   git push -u origin feat/your-feature-name
+   ```
+
+4. **Create Pull Request** on GitHub with:
+   - Clear description of changes
+   - Reference to any related issues
+   - Steps to test the changes
+
+5. **Merge to main** after review approval
+
+6. **Delete feature branch** after merge (locally and on remote)
+
 ## Commit Message Convention
 
 Use Conventional Commits format:
