@@ -71,6 +71,33 @@ This project follows **GitHub Flow** for branch management and contributions.
 
 6. **Delete feature branch** after merge (locally and on remote)
 
+### Pull Request Description Guidelines
+
+All PRs should include:
+
+- **Summary** section describing what was implemented/changed
+- **Testing** section with steps to verify the changes
+- **Related Issues** (if applicable) with references to GitHub issues
+- **Notes** section for any important context or caveats (optional)
+
+**Example PR description structure:**
+```
+## Summary
+- Brief description of the feature or fix
+- Key changes made
+
+## Testing
+- Steps to test the changes
+- Devices/browsers tested (for UI changes)
+- Test coverage added (if applicable)
+
+## Related Issues
+Closes #<issue-number> (if applicable)
+
+## Notes
+Any additional context (optional)
+```
+
 ## Commit Message Convention
 
 Use Conventional Commits format:
