@@ -123,3 +123,7 @@ Use Conventional Commits format:
 - `docs: update README with setup instructions`
 
 Keep commits atomic and focused. Each commit should represent a single logical change.
+
+## Документация
+При добавлении функционала проверяй .claude/docs/*.
+Актуализируй файлы при изменении архитектуры.
